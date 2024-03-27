@@ -1,0 +1,27 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+  background-color: darkgray;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center; 
+}
+
+div:hover {
+  background-color: chartreuse;
+}
+
+.criador > p {
+  display: none;
+}
+
+.criador:hover > p {
+  background-color: red;
+  color: white;
+  display: block;
+}

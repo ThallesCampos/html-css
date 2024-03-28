@@ -30,14 +30,9 @@
   text-decoration: underline;
   padding: 5px;
   border-radius: 5px;
-}
-
-#next:hover {
-  background-color: green;
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
-  transition: 0.5s;
+  position: fixed;
+  left: 83%;
+  top: 90%;
 }
 
 #second-page {
@@ -55,4 +50,49 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
   text-align: center;
+}
+
+.button-back {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 500px;
+}
+
+.button-next {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 500px;
+  left: 90%;
+}
+
+.button-back:hover {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.button-next:hover {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.button-back > a {
+  color: black;
+  text-decoration: underline;
+}
+
+.button-next > a {
+  color: black;
+  text-decoration: underline;
 }

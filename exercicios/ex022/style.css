@@ -1,10 +1,11 @@
-body {
+#first-page {
   background-image: url(assets/wallpaper001.jpg);
 }
 
 .image {
   display: inline-block;
   background-color: red;
+  margin: 0 50px;
   border: 2px solid black;
   border-radius: 10px;
   width: 300px;
@@ -21,4 +22,37 @@ body {
 
 #i3 {
   background-image: url(assets/pattern003.png);
+}
+
+#next {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#next:hover {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#second-page {
+  background-image: url(assets/wallpaper002.jpg);
+}
+
+#apresentacao {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 300px;
+}
+
+#apresentacao > p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: center;
 }

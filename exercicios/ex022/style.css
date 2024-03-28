@@ -1,0 +1,24 @@
+body {
+  background-image: url(assets/wallpaper001.jpg);
+}
+
+.image {
+  display: inline-block;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+#i1 {
+  background-image: url(assets/pattern001.png);
+}
+
+#i2 {
+  background-image: url(assets/pattern002.png);
+}
+
+#i3 {
+  background-image: url(assets/pattern003.png);
+}

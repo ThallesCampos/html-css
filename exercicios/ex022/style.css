@@ -52,47 +52,25 @@
   text-align: center;
 }
 
-.button-back {
+.bottons {
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  color: black;
   text-align: center;
-  padding: 5px;
+  display: inline-block;
+  list-style: none;
+  width: 150px;
+  height: 25px;
+  margin: 5px;
+  border: 2px solid black;
   border-radius: 5px;
-  margin: 0 500px;
 }
 
-.button-next {
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  padding: 5px;
-  border-radius: 5px;
-  margin: 0 500px;
-  left: 90%;
+ul {
+  padding: 0;
 }
 
-.button-back:hover {
+.bottons:hover {
   background-color: green;
   color: white;
-  padding: 5px;
-  border-radius: 5px;
   transition: 0.5s;
-}
-
-.button-next:hover {
-  background-color: green;
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
-  transition: 0.5s;
-}
-
-.button-back > a {
-  color: black;
-  text-decoration: underline;
-}
-
-.button-next > a {
-  color: black;
-  text-decoration: underline;
 }

@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #first-page {
   background-image: url(assets/wallpaper001.jpg);
 }
@@ -73,4 +77,29 @@ ul {
   background-color: green;
   color: white;
   transition: 0.5s;
+}
+
+.quadrado {
+  background-image: url(assets/wallpaper003.jpg);
+  width: 900px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#q1 {
+  background-position: top left;
+}
+
+#q2 {
+  background-position: center left;
+}
+
+#q3 {
+  background-position: center;
+}
+
+#q4 {
+  background-position: right top;
 }

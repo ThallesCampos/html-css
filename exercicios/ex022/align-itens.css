@@ -1,0 +1,28 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  background: violet url(assets/target001.png) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 800px;
+  height: 800px;
+}
+
+#content-box {
+  background: yellow url(assets/target001.png) center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

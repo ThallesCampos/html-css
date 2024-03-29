@@ -6,6 +6,8 @@ body {
   height: 100vh;
   background: black url(assets/wallpaper002.jpg) center center no-repeat fixed;
   background-size: cover;
+}
+
 main {
   text-align: justify;
   background-color: white;

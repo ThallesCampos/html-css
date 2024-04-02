@@ -7,11 +7,21 @@ table {
   border-collapse: collapse;
 }
 
-td {
+td, th {
   border: 1px solid black;
   padding: 8px;
 }
 
 .linha {
   background-color: darkgray;
+}
+
+table > thead {
+  background-color: black;
+  color: white;
+}
+
+table > tfoot {
+  background-color: gray;
+  color: white;
 }

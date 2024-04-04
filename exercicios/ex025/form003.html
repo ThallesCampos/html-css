@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário tres</title>
+  </head>
+  <body>
+    <h1>Formulario tres</h1>
+    <form action="" method="post">
+      <p>
+        <label for="nome">Usuário: </label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Nome de Usuário"
+          required
+          minlength="2"
+          maxlength="15"
+        />
+      </p>
+
+      <p>
+        <label for="idade">Idade: </label>
+        <input
+          type="number"
+          name="idade"
+          id="idade"
+          placeholder="Idade do Usuário"
+          required
+          minlength="1"
+          maxlength="2"
+        />
+      </p>
+
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Limpar" />
+    </form>
+  </body>
+</html>

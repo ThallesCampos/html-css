@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* css para impressora*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+menu {
+  display: none;
+}
+
+h2 {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+article::after {
+  content: 'esse arquivo foi impresso da maquina do Thalles';
+}
